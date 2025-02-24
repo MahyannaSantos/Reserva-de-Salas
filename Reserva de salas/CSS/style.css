@@ -11,23 +11,35 @@ body{
 }
 
 #telaCadastro{
-
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .topo{
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .topo h1{
-
+    font-size: 90px;
+    color: #3A73DB;
 }
 
 .topo p{
-
+    font-size: 32px;
 }
 
 .acesso{
+}
 
+.acesso nav{
+    display: flex;
+    justify-content: space-around;
 }
 
 .acesso li{
