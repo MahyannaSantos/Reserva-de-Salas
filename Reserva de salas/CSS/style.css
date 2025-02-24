@@ -26,35 +26,54 @@ body{
 }
 
 .topo h1{
-    font-size: 90px;
+    font-size: 70px;
+    font-weight: 500;
     color: #3A73DB;
 }
 
 .topo p{
-    font-size: 32px;
+    font-size: 25px;
+    font-weight: 600;
 }
 
 .acesso{
 }
 
-.acesso nav{
+.acesso ul{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    font-size: 23px;
+    font-weight: bold;
+    margin-top: 30px;
+    
 }
 
 .acesso li{
-
+    list-style: none;
+    color: #DEDEDE;
+    cursor: pointer;
+    background-image: linear-gradient(90deg, black, black);
+    background-repeat: no-repeat;
+    background-size: 0% 3px;
+    background-position: left bottom;
+    transition: 500ms ease;
 }
 
 .coordenacao:hover{
+    color: black;
+    background-size: 100% 3px;
 
 }
 
 .professor:hover{
-
+    color: black;
+    background-size: 100% 3px;
 }
 
 .aluno:hover{
-
+    color: black;
+    background-size: 100% 3px;
 }
 
